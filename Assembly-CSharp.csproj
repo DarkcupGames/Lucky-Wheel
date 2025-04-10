@@ -64,7 +64,9 @@
     <Compile Include="Assets\LoadWheel.cs" />
     <Compile Include="Assets\RowAddItem.cs" />
     <Compile Include="Assets\Item.cs" />
+    <Compile Include="Assets\UserManager.cs" />
     <Compile Include="Assets\ItemObject.cs" />
+    <Compile Include="Assets\ItemDataManager.cs" />
     <Compile Include="Assets\LuckyWheel.cs" />
     <Compile Include="Assets\SaveData.cs" />
   </ItemGroup>

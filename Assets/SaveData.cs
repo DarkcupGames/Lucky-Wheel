@@ -46,6 +46,9 @@ public class SaveData : MonoBehaviour
     public void SaveDataItem()
     {
         UpdateListItem();
-        JsonManager.SaveItems(items.ToArray());
+        //JsonManager.SaveItems(items.ToArray());
+        ItemData itemData = new ItemData();
+        itemData.items = items.ToArray();
+        ItemDataManager.Instance.SaveItemData(UserManager.Instance.currentUsername, itemData);
     }
 }
